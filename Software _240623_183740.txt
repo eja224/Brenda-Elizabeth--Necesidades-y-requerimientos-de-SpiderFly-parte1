@@ -1,0 +1,9 @@
+Para la creación del juego pensamo en utilizar un buen editor de código ya sea 
+• Visual
+• Studio Code
+• Sublime Text
+• Notepad ++
+Al ser un juego para ordenadores necesitamos de un navegador web para pruebas y ejecución pensamos en navegadores como:
+[  ] Google Chrome
+[  ] Firefox
+[  ] Safari.

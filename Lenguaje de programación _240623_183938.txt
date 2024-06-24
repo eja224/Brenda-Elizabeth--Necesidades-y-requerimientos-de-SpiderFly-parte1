@@ -1,0 +1,26 @@
+Al ser un juego de páginas web utilizaremos HTML para la estructura del juego, CSS para los diseños y estilos de la interfaz y por último el lenguaje con el que estamos más familiarizados que es java scrip.
+Ejemplo de estructura:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Spider-Fly</title>
+</head>
+<body>
+    <div class="inicio">
+        <h1>¡Bienvenido a Spider-Fly!</h1>
+        <button>Ver puntuaciones</button>
+        <button>Consultar SPIDER COIN</button>
+        <button>Ir a la tienda</button>
+    </div>
+</body>
+<script>    document.addEventListener("keydown", function(event) {        if (event.key === "ArrowUp") {            console.log("Spider-Fly se mueve hacia arriba");        } else if (event.key === "ArrowDown") {            console.log("Spider-Fly se mueve hacia abajo");        }    });</script>
+<script>    function verificarColision() {        // Lógica para detectar colisiones        // ...        if (colisionDetectada) {            console.log("¡Colisión detectada! El juego termina.");        }    }    // Llamamos a la función en algún momento apropiado//
+verificarColision();</script>
+ <script>    let puntuacion = 0;    function mostrarPuntuacion() {        console.log("Puntuación actual: " + puntuacion);    }    // Llamamos a la función cuando Spider-Fly pasa un obstáculo o realiza alguna acción relevante    mostrarPuntuacion();</script>
+</html>
+Con respecto al diseño, colores, animación, un ejemplo de css es el siguiente es más con respecto al movimiento de nuestro amigo arácnido:
+<!DOCTYPE html><html lang="en"><head>    <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <style>        .spider-fly {            width: 50px;            height: 50px;            background-color: red;            position: absolute;            top: 50%;            left: 50%;            transform: translate(-50%, -50%);            animation: swing 2s infinite alternate;        }        @keyframes swing {            0% {                transform: rotate(0);            }            100% {                transform: rotate(20deg);            }        }    </style></head><body>    <div class="spider-fly"></div></body></html>
+La gama de colores son amigables y no tan brillantes para el usuario, decidimos usar la misma gama que tiene Spiderman de manera que no se opaque ni contraseste con lo demás.

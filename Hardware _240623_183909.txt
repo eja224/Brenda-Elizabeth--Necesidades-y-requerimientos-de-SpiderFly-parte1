@@ -1,0 +1,12 @@
+Requisitos Mínimos: 
+	• Procesador: Intel Core i3-4160 (3.6 GHz) o equivalente de AMD.
+	• Memoria RAM: 8 GB.
+	• Tarjeta gráfica: NVIDIA GTX 950 o AMD Radeon RX 470.
+	• Almacenamiento: 75 GB de espacio disponible.
+	• Sistema operativo: Windows 10 de 64 bits1
+Requisitos Recomendados:
+Para un mejor rendimiento y calidad gráfica, se recomienda un hardware más potente:
+	• Procesador más rápido.
+	• Mayor cantidad de RAM.
+	• Tarjeta gráfica más avanzada.
+	• Espacio de almacenamiento adicional.
